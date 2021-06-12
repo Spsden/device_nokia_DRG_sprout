@@ -1,0 +1,16 @@
+[
+  {
+    "repository": " keneankit01/android_kernel_nokia_sdm660-firekerenl ",
+    "target_path": "kernel/nokia/sdm660"
+  },
+  {
+	"repository": "Sid127/vendor_nokia_DRG_sprout"
+	"target_path": "vendor/nokia/DRG_sprout"
+  },
+  
+  { 
+         "repository" : " Sid127/device_nokia_DRG_sprout ",
+         "target_path" : " device/nokia/DRG_sprout "
+
+  }
+]
