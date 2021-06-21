@@ -1,4 +1,5 @@
-# Copyright (C) 2020 The LineageOS Project
+#
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,21 +12,11 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_DRG_sprout.mk \
-    $(LOCAL_DIR)/potato_DRG_sprout.mk
-    
-
-    
+    $(LOCAL_DIR)/dot_DRG_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
     dot_DRG_sprout-user \
     dot_DRG_sprout-userdebug \
-    dot_DRG_sprout-eng \
-    potato_DRG_sprout-user \
-    potato_DRG_sprout-userdebug \
-    potato_DRG_sprout-eng
-
-   
+    dot_DRG_sprout-eng
